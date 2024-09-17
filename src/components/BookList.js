@@ -1,4 +1,10 @@
+import Book from "./Book";
+
 function BookList() {
-  return <section>BookList</section>;
+  return (
+    <section>
+      <Book />
+    </section>
+  );
 }
 export default BookList;

@@ -1,11 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-const Greetings = () => {
-  return <h2>My First Component</h2>;
-};
+import BookList from "./components/BookList";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<Greetings />);
+root.render(<BookList />);
 
-export default Greetings;
+export default BookList;
