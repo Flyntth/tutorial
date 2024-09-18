@@ -1,7 +1,7 @@
 function Image() {
   return (
     <img
-      src="https://images-na.ssl-images-amazon.com/images/I/71KTwO53SnL._AC_UL900_SR900,600_.jpg"
+      src="../images/book1.jpg"
       alt="Good Energy: The Surprising Connection Between Metabolism and Limitless Health"
     />
   );
