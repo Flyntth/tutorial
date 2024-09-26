@@ -1,13 +1,15 @@
-import Author from "./Author";
-import Image from "./Image";
-import Title from "./Title";
-
 function Book() {
+  const author = "Casey Means MD";
+  const title =
+    "Good Energy: The Surprising Connection Between Metabolism and Limitless Health";
   return (
     <article className="book">
-      <Image />
-      <Title />
-      <Author />
+      <img
+        src="../images/book1.jpg"
+        alt="Good Energy: The Surprising Connection Between Metabolism and Limitless Health"
+      />
+      <h2>{title}</h2>
+      <h4>{author}</h4>;
     </article>
   );
 }
