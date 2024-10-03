@@ -1,10 +1,9 @@
-function Book({ author, title, img, children }) {
+function Book({ author, title, img }) {
   return (
     <article className="book">
       <img src={img} alt={title} />
       <h2>{title}</h2>
       <h4>{author}</h4>
-      {children}
     </article>
   );
 }
